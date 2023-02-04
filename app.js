@@ -19,3 +19,8 @@ for(var i =0; i < keys.length; i++){
     console.log(propertyName, propertyValues);
 }
 
+// for in loop
+for(var propertyName in soppingCart){
+    const value = soppingCart[propertyName];
+    console.log(propertyName, value);
+}
